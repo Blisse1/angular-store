@@ -8,7 +8,7 @@ import { ProductListComponent } from './product-list/product-list.component';
   standalone: true,
   imports: [TopBarComponent, ProductListComponent, RouterModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrl: './app.component.css',
 })
 export class AppComponent {
   title = 'angular-store';
